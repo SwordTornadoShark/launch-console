@@ -1,11 +1,10 @@
 name = input("What's your name? ")
-print("Welcome to " + "name" + "'s Launch Console!")
+print("Welcome to " + name + "'s Launch Console!")
 
 running = True
 while running:
-    print("1) I am a Sophmore")
-    print("2) I want to learn how to make my own application using python")
-    print("3) Exit")
+    print("I am a Sophmore")
+    print("I want to learn how to make my own application using python")
     choice = input("Pick 1-4: ")
     if choice == "1":
         print("I'm a builder-in-training at Code2College.")
